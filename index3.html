@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Joe Greyson</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f8f8;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background: #fff;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #6A0DAD;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #6A0DAD;
+        }
+
+        .btn {
+            text-decoration: none;
+            background: #6A0DAD;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #570DAD;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 10%;
+        }
+
+        .content {
+            max-width: 50%;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #333;
+        }
+
+        h1 span {
+            color: #6A0DAD;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #777;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .btn.primary {
+            background: #6A0DAD;
+        }
+
+        .btn.secondary {
+            background: transparent;
+            color: #6A0DAD;
+            border: 2px solid #6A0DAD;
+        }
+
+        .btn.secondary:hover {
+            background: #6A0DAD;
+            color: white;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a img {
+            width: 30px;
+            margin-right: 10px;
+            transition: transform 0.3s;
+        }
+
+        .social-icons a img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Image */
+        .image img {
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Joe.</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn">Let's Talk</a>
+    </header>
+
+    <section class="hero">
+        <div class="content">
+            <h1>Hi, I'm <span>Joe Greyson</span></h1>
+            <h2>Frontend Developer</h2>
+            <p>Passionate about modern, accessible, and visually appealing web design.</p>
+            <div class="buttons">
+                <a href="#" class="btn primary">Hire Me</a>
+                <a href="#" class="btn secondary">See Projects</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.OaHWiuwB46nOfArXuanGsgHaGp&pid=Api&P=0&h=180" alt="Facebook"></a>
+                <a href="#"><img src="https://tse3.mm.bing.net/th?id=OIP.s5ujrdq0imWUFoiH0lWbNwHaHa&pid=Api&P=0&h=180" alt="Twitter"></a>
+                <a href="#"><img src="https://tse3.mm.bing.net/th?id=OIP.ozDiSGJlUqI6815cRlJiNAHaHa&pid=Api&P=0&h=180" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="https://i0.wp.com/employernews.co.uk/wp-content/uploads/2021/01/Office-wear_5-vintage-outfits-for-a-trendy-business-look_cover-image-sm.jpg?w=1500&ssl=1" alt="Joe Greyson">
+        </div>
+    </section>
+</body>
+</html>
